@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
     "strict": true,
+    "allowJs": true,
     "isolatedModules": true,
-  }
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

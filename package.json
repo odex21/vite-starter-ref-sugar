@@ -2,15 +2,21 @@
   "name": "vite-starter-ref-sugar",
   "private": true,
   "scripts": {
-    "dev": "vite --open",
+    "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "npm:@knightly/vue@ref-sugar"
+    "vue": "^3.0.4"
   },
   "devDependencies": {
     "@types/vue": "npm:vue@next",
-    "vite": "1.0.0-rc.9",
-    "@vue/compiler-sfc": "npm:@knightly/vue__compiler-sfc@ref-sugar"
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "@vue/compiler-sfc": "^3.0.4",
+    "eslint": "^7.14.0",
+    "eslint-plugin-vue": "^7.1.0",
+    "typescript": "^4.1.2",
+    "vite": "^1.0.0-rc.13",
+    "vue-eslint-parser": "^7.2.0"
   }
 }
